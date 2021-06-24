@@ -18,7 +18,7 @@ function setFormParam (param) {
 		switch (key) {
 			case 'size':
 			case 'color':
-			form.querySelectorAll('input[name="'+key+'"]')
+				form.querySelectorAll('input[name="'+key+'"]')
 				.forEach((elem) => {
 					if (elem.value === param[key]) {
 						elem.checked = true
@@ -46,8 +46,6 @@ function setFormParam (param) {
 	}
 }
 function clearForm () {
-	const isCheckboxOrRadio = type => ['checkbox', 'radio', 'select-multiple'].includes(type);
-
 	for(let field of form){
 		switch (field.type) {
 			case 'checkbox':
