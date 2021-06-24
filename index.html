@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>fashion store</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, maximum-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="theme-color" content="#ec474e">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" type="text/css" href="styles.min.css">
+  </head>
+  <body>
+    <div class="s-wrapper">
+      <div class="s-main">
+        <div class="s-main-i">
+          <div class="s-wrapper">
+            <div class="s-main">
+              <div class="s-content">
+                <form id="formFashion" method="get">
+                  <fieldset id="size">
+                    <legend>Size</legend>
+                    <label for="sizeS">
+                      <input id="sizeS" type="radio" name="size" value="S">S
+                    </label>
+                    <label for="sizeM">
+                      <input id="sizeM" type="radio" name="size" value="M">M
+                    </label>
+                    <label for="sizeL">
+                      <input id="sizeL" type="radio" name="size" value="L">L
+                    </label>
+                  </fieldset>
+                  <fieldset id="color">
+                    <legend>Color</legend>
+                    <label for="color1">
+                      <input id="color1" type="checkbox" name="color" value="1">1
+                    </label>
+                    <label for="color2">
+                      <input id="color2" type="checkbox" name="color" value="2">2
+                    </label>
+                    <label for="color3">
+                      <input id="color3" type="checkbox" name="color" value="3">3
+                    </label>
+                    <label for="color4">
+                      <input id="color4" type="checkbox" name="color" value="4">4
+                    </label>
+                    <label for="color5">
+                      <input id="color5" type="checkbox" name="color" value="5">5
+                    </label>
+                  </fieldset>
+                  <fieldset id="manufacturer">
+                    <legend>Manufacturer</legend>
+                    <select multiple name="manufacturer">
+                      <option value="aaa">aaa</option>
+                      <option value="b&amp;c">b&amp;c</option>
+                      <option value="ddd">ddd</option>
+                    </select>
+                  </fieldset>
+                  <fieldset>
+                    <label for="wholesale">
+                      <input id="wholesale" type="checkbox" name="sale" value="1" checked>Wholesale
+                    </label>
+                  </fieldset>
+                  <fieldset class="bottom-form">
+                    <input type="submit">
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="addon.js"></script>
+  </body>
+</html>
