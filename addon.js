@@ -1,5 +1,3 @@
-// ?size=M&color=1&color=2&manufacturer=aaa&manufacturer=ddd
-
 const form = document.getElementById('formFashion');
 let isWholesale = false;
 let wholesaleElem = document.getElementById('wholesale');
