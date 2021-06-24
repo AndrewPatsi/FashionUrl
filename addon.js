@@ -3,16 +3,13 @@ let isWholesale = false;
 let wholesaleElem = document.getElementById('wholesale');
 let params = [];
 
-function parseUri () {}
 function getUriParams () {
 	let parts = window.location.href
 	.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
 		params.push({[key]: value});
 	});
 }
-function getFormParams () {
 
-}
 function setFormParam (param) {
 	for(const key in param){
 		switch (key) {
